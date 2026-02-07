@@ -1,0 +1,14 @@
+API Key: fae106896035cce6ad49e52c30c4936a
+Base URL: https://api.themoviedb.org/3
+Authorization:'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmYWUxMDY4OTYwMzVjY2U2YWQ0OWU1MmMzMGM0OTM2YSIsIm5iZiI6MTc3MDQ1MjgyNC41ODA5OTk5LCJzdWIiOiI2OTg2Zjc1ODk0ODRhNWQ0MzA1Y2ExYmEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.pLS8xwQ9wwyK66If2XsB9Md4FQWWoHK719hf7NvL3T8
+Serach :'https://api.themoviedb.org/3/search/movie?query=The%20Wrecking%20Crew&include_adult=false&language=en-US&page=1' \
+  Authorization:'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmYWUxMDY4OTYwMzVjY2U2YWQ0OWU1MmMzMGM0OTM2YSIsIm5iZiI6MTc3MDQ1MjgyNC41ODA5OTk5LCJzdWIiOiI2OTg2Zjc1ODk0ODRhNWQ0MzA1Y2ExYmEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.pLS8xwQ9wwyK66If2XsB9Md4FQWWoHK719hf7NvL3T8'
+  accept:application/json
+
+Movies List: https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1'
+Individual: 'https://api.themoviedb.org/3/movie/840464?language=en-US' 
+Popular: 'https://api.themoviedb.org/3/movie/popular?language=en-US&page=1' \
+Top Rated: 'https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1' \
+Upcoming:'https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1' \
+
+  
