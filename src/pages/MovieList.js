@@ -1,9 +1,9 @@
 export const MovieList = () => {
     return (
         <main>
-            <div className="text-9xl bg-emerald-200 py-1">
-                MovieList
-            </div>
+           <section className="max-w-7xl mx-auto py-7">
+
+           </section>
         </main>
     )
 }
