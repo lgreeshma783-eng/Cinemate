@@ -1,5 +1,3 @@
 export const Search = () => {
-    return(
-        <main>Search</main>
-    )
-}
+  return <main>Search</main>;
+};
