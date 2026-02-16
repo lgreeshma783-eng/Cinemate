@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import Logo from "../assets/logo.png";
 
 export const Header = () => {
-  const [hidden, setHidden] = useState(true);
+  const [ hidden, setHidden ] = useState(true);
+  const navigate = useNavigate();
   const [darkMode, setDarkMode] = useState(
     JSON.parse(localStorage.getItem("darkMode")) || true,
   );
@@ -15,7 +16,15 @@ export const Header = () => {
     } else {
       document.documentElement.classList.remove("dark");
     }
-  }, [darkMode]);
+  }, [ darkMode ]);
+  
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const queryTerm = event.target.search.value;
+    event.target.reset();
+
+    return navigate(`/search?q=${queryTerm}`);
+  }
 
   const activeClass =
     "text-base block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500";
@@ -108,7 +117,7 @@ export const Header = () => {
                 </svg>
                 <span className="sr-only">Search icon</span>
               </div>
-              <form>
+              <form onSubmit={handleSubmit}>
                 <input
                   type="text"
                   id="search-navbar"
@@ -164,7 +173,7 @@ export const Header = () => {
                   ></path>
                 </svg>
               </div>
-              <form>
+              <form onSubmit={handleSubmit}>
                 <input
                   type="text"
                   id="search-navbar"
