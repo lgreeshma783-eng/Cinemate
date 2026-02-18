@@ -11,6 +11,7 @@ export const Header = () => {
 
   useEffect(() => {
     localStorage.setItem("darkMode", JSON.stringify(darkMode));
+    
     if (darkMode) {
       document.documentElement.classList.add("dark");
     } else {
