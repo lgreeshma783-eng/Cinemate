@@ -12,22 +12,22 @@ export const Footer = () => {
       </span>
       <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-          <a href="https://www.google.com/" target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">
+          <a href="https://www.instagram.com/cinemate_info_2112?igsh=MTN1bXF4azR0MXJiYw==" target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">
             Instagram
           </a>
         </li>
         <li>
-          <a href="https://www.google.com/" target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">
-            LinkedIn
-          </a>
-        </li>
-        <li>
-          <a href="https://www.google.com/" target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">
+          <a href="https://youtube.com/@cinemate_info?si=BlAVOuo2lke8kXGR" target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">
             Youtube
           </a>
         </li>
         <li>
-          <a href="https://www.google.com/" target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">
+          <a href="https://www.facebook.com/share/p/1GRvtiScwx/" target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/lgreeshma783-eng/Cinemate" target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">
             Github
           </a>
         </li>
